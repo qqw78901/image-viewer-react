@@ -6,9 +6,8 @@ import commonjs from 'rollup-plugin-commonjs';
 import copy from 'rollup-plugin-copy';
 import {uglify} from 'rollup-plugin-uglify';
 const outputDir = "dist"
-const env = process.env.NODE_ENV;
 export default {
-    input: './src/ImageViewer.js',
+    input: './src/imageviewer.js',
     exports: 'default',
     external: ['react'],
     output: {
