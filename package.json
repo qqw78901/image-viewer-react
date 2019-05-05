@@ -111,9 +111,6 @@
     "prop-types": "^15.5.0"
   },
   "lint-staged": {
-    "src/**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    
   }
 }
