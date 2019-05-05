@@ -1,0 +1,16 @@
+* {
+    user-select: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list{
+    width: 48%;
+}
+.list img{
+    display: block;
+    width: 100%;
+}
